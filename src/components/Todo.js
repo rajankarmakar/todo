@@ -3,8 +3,8 @@ import React from 'react';
 function Todo({todo, makeComplete, deleteItem}) {
 
     return (
-        <div className="row mt-5"> 
-            <div className="col-sm-8 sm-offset-2 mx-auto">
+        <div className="row mt-5 px-2"> 
+            <div className="col-sm-8 offset-sm-2 mx-auto">
             <ul className="list-group">
                 { todo.map( item => (
                     <li key={item.id} style={ item.complete===true ? { textDecoration: 'line-through' } : { } } className="list-group-item"> { item.title } 

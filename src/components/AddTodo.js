@@ -2,8 +2,8 @@ import React from 'react';
 
 function AddTodo({handleChange, addTodoItem, value}){
  return(
-    <div className="row mt-1">
-        <div className="col-sm-8 sm-offset-2 mx-auto">
+    <div className="row px-2 mt-1">
+        <div className="col-sm-8 offset-sm-2 mx-auto">
             <div className="input-group mt-3">
                 <input 
                     type="text" 
